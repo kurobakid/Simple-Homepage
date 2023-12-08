@@ -109,16 +109,44 @@ nav li{
 .dark-mode .navbar-toggler{
     background-color: rgba(255, 255, 255, 0.705);
 }
-/* @media (max-width: 1250px) {
-    nav .btn{
-        margin-left: 15rem;
+@media (max-width: 1024px) {
+    #img{
+        width: 31rem;
+        margin-top: 8%;
+        padding-left: 0;
+    }
+    .title h1{
+        font-size: 3.75rem;
+        font-weight: 700;
+        margin-right: 20%;
+        color: #223344;
+        margin-bottom:8%;
+    }
+    .para p{
+        color: #909193;
+        margin-right: 5%;
+        font-weight: bold;
+        margin-bottom: 5%;
+    }
+    #start{
+        background-color: #2A4DD0;
+        width: 27%;
+        margin-left: 2%;
+        padding: 2%;
+        border-radius: 15px;
+        color: #FFFFFF;
+        border: none;
+    }
+    #live{
+        width: 30%;
+        margin-top: 1%;
+        margin-right: 35%;   
+        font-weight: bold;
+    }
+    .footer span{
+        padding-right: 2%;
     }
   }
-@media (max-width: 1024px) {
-    nav .btn{
-        margin-left: 10rem;
-    }
-  } */
 @media (max-width: 768px) {
     .item{
         margin-right: 2%;
